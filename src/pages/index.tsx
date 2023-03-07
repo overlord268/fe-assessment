@@ -97,7 +97,7 @@ const Home: React.FC = () => {
               <p className="text-[#00A3E0] font-regular text-xs ml-36 mt-3" >(XX%)</p>
             </div>
             <div className='flex'>
-              <p className='font-regular text-base pl-10 pt-7'>Appointments <p>set with you</p></p>
+              <p className='font-regular text-base pl-10 pt-7 pb-4'>Appointments <p>set with you</p></p>
               <p className='text-[#00A3E0] font-bold text-2xl ml-[85px] pt-9'>30</p>
             </div>
           </div>
@@ -114,7 +114,7 @@ const Home: React.FC = () => {
                 <p className='text-[#84AE2B] font-bold text-2xl pt-10'>10</p>
               </div>
             </div>
-            <div className="bg-[#F5F8FA] rounded-lg mt-[46.6px] px-8 text-end lg:pb-4">
+            <div className="bg-[#F5F8FA] rounded-lg mt-[46.6px] px-8 text-end pb-4">
               <div className='flex justify-end'>
                 <p className='font-regular text-base  pt-11'>Your closed volume<p className='text-[#84AE2B] font-regular text-2xl'>$3,000,000 </p></p>
               </div>
@@ -123,12 +123,12 @@ const Home: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white shadow-2xl rounded-lg  border-solid border-2 grow">
+          <div className="bg-white rounded-lg  border-solid border-2 grow">
             <img src='/icon-sad-face.svg' className='pt-[42px] pl-[41px]' />
             <h1 className='font-regular text-4xl pl-10 mt-4'>Losses</h1>
             <div className='px-8'>
               <div className='flex justify-between'>
-                <p className='font-regular text-base  mt-12 w-40 lg:w-56'>Appointments that signed with another agent</p>
+                <p className='font-regular text-base  mt-12 w-40'>Appointments that signed with another agent</p>
                 <p className='text-[#F93822] font-bold text-4xl  pt-10'>15</p>
               </div>
               <div className='flex justify-between'>
@@ -136,7 +136,7 @@ const Home: React.FC = () => {
                 <p className='text-[#F93822] font-bold text-2xl  pt-10'>10</p>
               </div>
             </div>
-            <div className="bg-[#F5F8FA] rounded-lg mt-[46.6px] px-8 text-end lg:pb-4">
+            <div className="bg-[#F5F8FA] rounded-lg mt-[46.6px] px-8 text-end pb-4">
               <div className='flex justify-end'>
                 <p className='font-regular text-base pt-11'> Lost volume<p className='text-[#F93822] font-regular text-2xl'>$3,000,000</p></p>
               </div>
@@ -146,11 +146,9 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className='flex text-center'>
-          <p className='text-black font-bold text-xl ml-6 pt-[170px]'>Unsatisfied with these stats? <p>We can help you improve them.</p></p>
-        </div>
-        <div>
-          <button className='text-white font-bold bg-[#F93822] rounded w-[166px] h-[42px] ml-[105px] mt-6 mb-16'>Schedule a call</button>
+        <div className='flex flex-col text-center items-center lg:mx-auto'>
+          <p className='text-black font-bold text-xl pt-14'>Unsatisfied with these stats? We can help you improve them.</p>
+          <button className='text-white font-bold bg-[#F93822] rounded w-[166px] h-[42px] mt-6 mb-16'>Schedule a call</button>
         </div>
       </main>
     </>
